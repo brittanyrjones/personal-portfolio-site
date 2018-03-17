@@ -1,0 +1,137 @@
+/* navigation */
+.navigation-list{
+  display:flex;
+  justify-content: space-between;
+}
+
+.navigation-list{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* use google font */
+}
+
+.nav{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* get rid of bullet list */
+section ul{
+  list-style: none;
+  padding: 0px;
+}
+
+/* make border with padding after each section */
+section{
+  padding: 50px;
+  /* border-bottom: .5px double black; */
+}
+
+/* get rid of bullet list in navigation toolbar */
+nav ul{
+  list-style: none;
+  padding-left: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #566353;
+}
+
+/* make list in line, and flexible to adjustments */
+nav li{
+  display:inline-block;
+  justify-content:flex-start;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a{
+    text-decoration: none;
+}
+.main-content h1{
+  text-align: center;
+  text-color: black;
+}
+
+.main-content p{
+  text-align: center;
+  line-height: 10px
+}
+
+.main-content li{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li:hover{
+  background-color: #d5edd0;
+  text-decoration-color: black
+}
+nav li a:visited{
+  text-color: white;
+  text-decoration: line-through;
+}
+
+section #About-me{
+  background-color: grey;
+}
+#About-me ul li{
+  justify-content: center;
+  align-items: center
+}
+#About-me ul li{
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+ html {
+   background-color: black;
+ }
+.main-content ul li{
+  display: block;
+  min-width: 100px;
+
+}
+.main-content section ul li{
+  display: flex;
+  background-color: blue;
+  margin: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.main-content{
+  display: inline;
+  align-items: center;
+
+}
+
+div .main-content{
+display: flex;
+justify-content: center;
+}
+
+/* navigation */
+.footer-list{
+  display:flex;
+  justify-content: space-between;
+}
+
+.footer-list{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* use google font */
+}
+
+.foot{
+  position: fixed; /* Set the navbar to fixed position */
+bottom: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
