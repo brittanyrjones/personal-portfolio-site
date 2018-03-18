@@ -1,0 +1,71 @@
+#About-me li{
+  padding: 15px;
+  margin: 25px;
+}
+
+
+
+
+
+
+
+
+
+ .main-content #education ul {
+  display: block;
+   list-style-position: inside;
+    list-style: circle;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+
+#About-me ul li{
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.6);
+color: white;
+
+}
+#education ul li{
+background-color: transparent;
+}
+
+#education ul li a:link{
+  text-decoration: none;
+  color: white;
+}
+#education ul li a:hover{
+  text-decoration: underline;
+}
+#education ul li a:visited{
+  text-decoration: underline;
+  color: rgb(20, 94, 66);
+}
+#education ul li a:active{
+  color: rgb(20, 94, 66);
+}
+#jobs ul{
+  list-style-position: inside;
+   list-style: circle;
+}
+#jobs ul li{
+  background-color: transparent;
+}
+#certs ul{
+  list-style-position: inside;
+   list-style: circle;
+}
+#certs ul li{
+  background-color: transparent;
+}
+#skills ul{
+  list-style-position: inside;
+   list-style: circle;
+}
+#skills ul li{
+  background-color: transparent
+}

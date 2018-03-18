@@ -36,7 +36,11 @@ nav ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #566353;
+/* background: radial-gradient(rgba(20, 94, 66, 0.9), black); */
+  /* background-color: rgba(119, 61, 91, 0.9); */
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
 }
 
 /* make list in line, and flexible to adjustments */
@@ -49,6 +53,11 @@ nav li{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-right-style: solid;
+  border-color: black;
+  border-width: 10px;
+  background: rgba(0, 0, 0, 0.6), black);
+
 }
 nav li a{
     text-decoration: none;
@@ -70,21 +79,34 @@ nav li a{
 }
 
 nav li:hover{
-  background-color: #d5edd0;
-  text-decoration-color: black
+  background-color: rgb(20, 94, 66);
+  color: white;
+
 }
-nav li a:visited{
-  text-color: white;
+nav li:visited{
+  text: white;
   text-decoration: line-through;
 }
 
-section #About-me{
-  background-color: grey;
+#mypic img{
+border-radius: 50%;
+border-width: 10px;
+border-color: rgba(0, 0, 0, 0.6);
+border-style: solid;
+
 }
+
+#About-me #mypic{
+  background-color: transparent;}
+
 #About-me ul li{
   justify-content: center;
-  align-items: center
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.6);
+color: white;
+
 }
+
 #About-me ul li{
   display: flex;
   justify-content: center;
@@ -92,7 +114,9 @@ section #About-me{
   align-items: center;
 }
  html {
-   background-color: black;
+   background-image: url("/Users/brittanyjones/desktop/Adaprojects/personal-portfolio-site/images/jeremy-thomas-99326-unsplash.jpg");
+background-attachment: fixed;
+
  }
 .main-content ul li{
   display: block;
@@ -101,10 +125,14 @@ section #About-me{
 }
 .main-content section ul li{
   display: flex;
-  background-color: blue;
+  background-color: white;
   margin: 30px;
   align-content: center;
   justify-content: center;
+  /* border-style: double;
+  border-width: 30px;
+  border-color: transparent; */
+
 }
 
 .main-content{

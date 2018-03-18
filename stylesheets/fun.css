@@ -1,13 +1,13 @@
 /* navigation */
 .navigation-list{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navigation-list{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* use google font */
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .nav{
@@ -40,16 +40,16 @@ nav ul{
 }
 
 /* make list in line, and flexible to adjustments */
-nav li{
+/* nav li{
   display:inline-block;
   justify-content:flex-start;
-  float: left;
+  float: right;
   display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
+} */
 nav li a{
     text-decoration: none;
 }
