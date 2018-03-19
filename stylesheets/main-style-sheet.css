@@ -36,7 +36,7 @@ nav ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-/* background: radial-gradient(rgba(20, 94, 66, 0.9), black); */
+  /* background: radial-gradient(rgba(20, 94, 66, 0.9), black); */
   /* background-color: rgba(119, 61, 91, 0.9); */
   border-style: solid;
   border-color: black;
@@ -56,15 +56,14 @@ nav li{
   border-right-style: solid;
   border-color: black;
   border-width: 10px;
-  background: rgba(0, 0, 0, 0.6), black);
-
+  background: rgba(0, 0, 0, 0.6);
 }
+
 nav li a{
-    text-decoration: none;
+  text-decoration: none;
 }
 .main-content h1{
   text-align: center;
-  text-color: black;
 }
 
 .main-content p{
@@ -84,15 +83,14 @@ nav li:hover{
 
 }
 nav li:visited{
-  text: white;
   text-decoration: line-through;
 }
 
 #mypic img{
-border-radius: 50%;
-border-width: 10px;
-border-color: rgba(0, 0, 0, 0.6);
-border-style: solid;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-style: solid;
 
 }
 
@@ -102,51 +100,44 @@ border-style: solid;
 #About-me ul li{
   justify-content: center;
   align-items: center;
-  background-color: rgb(0, 0, 0, 0.6);
-color: white;
-
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #About-me ul li{
   display: flex;
   justify-content: center;
-
   align-items: center;
 }
- html {
-   background-image: url("/Users/brittanyjones/desktop/Adaprojects/personal-portfolio-site/images/jeremy-thomas-99326-unsplash.jpg");
-background-attachment: fixed;
 
- }
+html{
+  background-image: url("/Users/brittanyjones/desktop/Adaprojects/personal-portfolio-site/images/jeremy-thomas-99326-unsplash.jpg");
+  background-attachment: fixed;
+}
+
 .main-content ul li{
   display: block;
   min-width: 100px;
-
 }
+
 .main-content section ul li{
   display: flex;
   background-color: white;
   margin: 50px;
   align-content: center;
   justify-content: center;
-  /* border-style: double;
-  border-width: 30px;
-  border-color: transparent; */
-
 }
 
 .main-content{
   display: inline;
   align-items: center;
-
 }
 
 div .main-content{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-/* navigation */
+  /* navigation */
 .footer-list{
   display:flex;
   justify-content: space-between;
@@ -155,11 +146,11 @@ justify-content: center;
 .footer-list{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* use google font */
+    /* use google font */
 }
 
 .foot{
   position: fixed; /* Set the navbar to fixed position */
-bottom: 0; /* Position the navbar at the top of the page */
+  bottom: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }

@@ -2,13 +2,11 @@
   padding: 15px;
   margin: 30px;
 }
+
 .main-content{
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-
-
 
 h2{
   font-weight: bolder;
@@ -19,10 +17,10 @@ h3{
 }
 
 
- .main-content #education ul {
+.main-content #education ul{
   display: block;
-   list-style-position: inside;
-    list-style: circle;
+  list-style-position: inside;
+  list-style: circle;
 }
 
 ul{
@@ -30,29 +28,31 @@ ul{
   padding: 0px;
 }
 
-
 #About-me ul li{
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.6);
   color: white;
-
 }
+
 #education ul li{
-background-color: transparent;
+  background-color: transparent;
 }
 
 #education ul li a:link{
   text-decoration: none;
   color: white;
 }
+
 #education ul li a:hover{
   text-decoration: underline;
 }
+
 #education ul li a:visited{
   text-decoration: underline;
   color: rgb(20, 94, 66);
 }
+
 #education ul li a:active{
   color: rgb(20, 94, 66);
 }
@@ -61,23 +61,26 @@ background-color: transparent;
   border-bottom: .3px solid white;
   padding-bottom: 5px;
   text-indent: 5%;
-
 }
+
 .summary{
   text-indent: 5%;
 }
 
 #certs ul{
   list-style-position: inside;
-   list-style: circle;
+  list-style: circle;
 }
+
 #certs ul li{
   background-color: transparent;
 }
+
 #skills ul{
   list-style-position: inside;
-   list-style: circle;
+  list-style: circle;
 }
+
 #skills ul li{
   background-color: transparent
 }
@@ -87,7 +90,6 @@ background-color: transparent;
   display: inline-block;
   border: .5px solid white;
   border-radius: 50px;
-
 }
 
 .container{

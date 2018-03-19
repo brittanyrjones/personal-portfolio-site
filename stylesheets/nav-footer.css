@@ -1,7 +1,6 @@
-* {font-family: Georgia, Times, "Times New Roman", serif;}
-
-
-
+*{
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
 
 /* navigation */
 .navigation-list{
@@ -61,12 +60,13 @@ nav li{
   border-right-style: solid;
   border-color: black;
   border-width: 10px;
-
 }
+
 nav li a{
     text-decoration: none;
     color: white;
 }
+
 nav li:hover{
   background-color: rgb(20, 94, 66);
   color: white;
@@ -86,12 +86,13 @@ nav li:hover{
 
 .foot{
   position: fixed; /* Set the navbar to fixed position */
-bottom: 0; /* Position the navbar at the top of the page */
+  bottom: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
 
 
 
-html {
+html{
   background-image: url("/Users/brittanyjones/desktop/Adaprojects/personal-portfolio-site/images/jeremy-thomas-99326-unsplash.jpg");
-background-attachment: fixed;
+  background-attachment: fixed;
+}

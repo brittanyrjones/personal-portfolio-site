@@ -51,12 +51,13 @@ nav li{
   padding: 14px 16px;
   text-decoration: none;
 }
+
 nav li a{
-    text-decoration: none;
+  text-decoration: none;
 }
+
 .main-content h1{
   text-align: center;
-  text-color: black;
 }
 
 .main-content p{
@@ -74,8 +75,8 @@ nav li:hover{
   background-color: #d5edd0;
   text-decoration-color: black;
 }
+
 nav li a:visited{
-  text-color: white;
   text-decoration: line-through;
 }
 
@@ -89,14 +90,14 @@ nav li a:visited{
   justify-content: center;
   align-items: center;
   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   /* width: 40%;} */
-
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 40%;} */
 }
 
-.
-ul{  display: inline-flex;
+
+ul{
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
