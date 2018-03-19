@@ -19,8 +19,9 @@
 /* get rid of bullet list */
 section ul{
   list-style: none;
-  padding: 0px;
+  padding: 50px;
 }
+
 
 /* make border with padding after each section */
 section{

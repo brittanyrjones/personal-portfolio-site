@@ -1,14 +1,21 @@
 #About-me li{
   padding: 15px;
-  margin: 25px;
+  margin: 30px;
+}
+.main-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
 
 
-
-
-
+h2{
+  font-style: bold;
+}
+h3{
+  font-style: italic;
+}
 
 
  .main-content #education ul {
@@ -48,13 +55,17 @@ background-color: transparent;
 #education ul li a:active{
   color: rgb(20, 94, 66);
 }
-#jobs ul{
-  list-style-position: inside;
-   list-style: circle;
+
+.description{
+  border-bottom: .3px solid white;
+  padding-bottom: 5px;
+  text-indent: 5%;
+
 }
-#jobs ul li{
-  background-color: transparent;
+.summary{
+  text-indent: 5%;
 }
+
 #certs ul{
   list-style-position: inside;
    list-style: circle;
@@ -68,4 +79,17 @@ background-color: transparent;
 }
 #skills ul li{
   background-color: transparent
+}
+
+.skilllist li{
+  justify-content: center;
+  display: inline-block;
+  border: .5px solid white;
+  border-radius: 50px;
+
+}
+
+.container{
+  display: grid;
+  grid-template-areas: 1fr 1fr / 1fr 1fr;
 }
