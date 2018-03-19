@@ -71,6 +71,10 @@ nav li a {
   text-decoration: none;
 }
 
+body{
+  color: white;
+}
+
 .main-content h1 {
   text-align: center;
 }
