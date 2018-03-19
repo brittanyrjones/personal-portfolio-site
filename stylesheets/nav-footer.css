@@ -1,46 +1,53 @@
-*{
+* {
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 /* navigation */
-.navigation-list{
-  display:flex;
+
+.navigation-list {
+  display: flex;
   justify-content: space-between;
 }
 
-.navigation-list{
-  display:grid;
+.navigation-list {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /* use google font */
 }
 
-.nav{
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+.nav {
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
 }
 
 /* get rid of bullet list */
-section ul{
+
+section ul {
   list-style: none;
   padding: 0px;
 }
 
 /* make border with padding after each section */
-section{
+
+section {
   padding: 50px;
   /* border-bottom: .5px double black; */
 }
 
 /* get rid of bullet list in navigation toolbar */
-nav ul{
+
+nav ul {
   list-style: none;
   padding-left: 50px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-/* background: radial-gradient(rgba(20, 94, 66, 0.9), black); */
+  /* background: radial-gradient(rgba(20, 94, 66, 0.9), black); */
   background-color: rgba(71, 61, 76, 0.9);
   border-style: solid;
   border-color: black;
@@ -48,9 +55,10 @@ nav ul{
 }
 
 /* make list in line, and flexible to adjustments */
-nav li{
-  display:inline-block;
-  justify-content:flex-start;
+
+nav li {
+  display: inline-block;
+  justify-content: flex-start;
   float: left;
   display: block;
   color: black;
@@ -62,37 +70,39 @@ nav li{
   border-width: 10px;
 }
 
-nav li a{
-    text-decoration: none;
-    color: white;
+nav li a {
+  text-decoration: none;
+  color: white;
 }
 
-nav li:hover{
+nav li:hover {
   background-color: rgb(20, 94, 66);
   color: white;
 }
 
 /* navigation */
-.footer-list{
-  display:flex;
+
+.footer-list {
+  display: flex;
   justify-content: space-between;
 }
 
-.footer-list{
-  display:grid;
+.footer-list {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   /* use google font */
 }
 
-.foot{
-  position: fixed; /* Set the navbar to fixed position */
-  bottom: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+.foot {
+  position: fixed;
+  /* Set the navbar to fixed position */
+  bottom: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
 }
 
-
-
-html{
+html {
   background-image: url("/Users/brittanyjones/desktop/Adaprojects/personal-portfolio-site/images/jeremy-thomas-99326-unsplash.jpg");
   background-attachment: fixed;
 }

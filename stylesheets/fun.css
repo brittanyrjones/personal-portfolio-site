@@ -1,35 +1,41 @@
 /* navigation */
-.navigation-list{
-  display:flex;
+
+.navigation-list {
+  display: flex;
   justify-content: space-around;
 }
 
-.navigation-list{
-  display:grid;
+.navigation-list {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
 }
 
-.nav{
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+.nav {
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
 }
 
 /* get rid of bullet list */
-section ul{
+
+section ul {
   list-style: none;
   padding: 0px;
 }
 
 /* make border with padding after each section */
-section{
+
+section {
   padding: 50px;
   /* border-bottom: .5px double black; */
 }
 
 /* get rid of bullet list in navigation toolbar */
-nav ul{
+
+nav ul {
   list-style: none;
   padding-left: 50px;
   list-style-type: none;
@@ -40,6 +46,7 @@ nav ul{
 }
 
 /* make list in line, and flexible to adjustments */
+
 /* nav li{
   display:inline-block;
   justify-content:flex-start;
@@ -50,30 +57,33 @@ nav ul{
   padding: 14px 16px;
   text-decoration: none;
 } */
-nav li a{
-    text-decoration: none;
+
+nav li a {
+  text-decoration: none;
 }
-.main-content h1{
+
+.main-content h1 {
   text-align: center;
   text-color: black;
 }
 
-.main-content p{
+.main-content p {
   text-align: center;
   line-height: 80px
 }
 
-.main-content li{
+.main-content li {
   display: inline-flex;
   justify-content: center;
   align-items: center;
 }
 
-nav li:hover{
+nav li:hover {
   background-color: #d5edd0;
   text-decoration-color: black;
 }
-nav li a:visited{
+
+nav li a:visited {
   text-color: white;
   text-decoration: line-through;
 }
